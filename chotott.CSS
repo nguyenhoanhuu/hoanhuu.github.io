@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: rgb(170, 193, 212);
+}
+a{
+    text-decoration:red;/* nhấn chuột vào sẽ hiện màu đỏ*/
+}
+.Menu ul li{
+  display: inline-block;
+  margin: 20px;
+    
+}
