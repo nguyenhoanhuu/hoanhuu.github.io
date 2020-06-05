@@ -4,7 +4,7 @@ body{
     text-align: center;/*canh giữa bài làm */
     background-image: url(123.png);/*lệnh lấy hình ảnh làm nền*/
     background-size: auto;/*chỉnh kích cỡ ảnh*/
-    color: 0;/*chỉnh màu chữ*/
+    color: black;/*chỉnh màu chữ*/
     font-size: 30px;
 }
 .login h1
