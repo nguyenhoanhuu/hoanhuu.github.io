@@ -1,0 +1,34 @@
+body{
+    margin: 0; /* canh lề giữa cách cấu trúc dữ liệu nhậpnhập*/
+        margin-top: 1px; /* Canh lề bên trên cho thành phần*/
+    text-align: center;/*canh giữa bài làm */
+    background-image: url(123.jpg);/*lệnh lấy hình ảnh làm nền*/
+    background-size: auto;/*chỉnh kích cỡ ảnh*/
+    color: 0;/*chỉnh màu chữ*/
+    font-size: 30px;
+}
+.login h1
+{
+ font-size: 50px;
+ /*border-bottom: 1px solid #008000 ;kẻ đường dứoi tiêu đề*/
+}
+
+.testbox input
+{
+    background: none;
+    margin-right: 15px;
+    font-size: 20px;
+    border-color: blue; /*border:none là chỉnh không có viền */
+    color: white; 
+}
+.btn
+{
+    background: none;/* khung hình bên trong không có màu*/
+    font-size:22px;
+    text-align: center;
+    margin-top: 10px;
+    cursor: pointer;/*chỉ định trỏ chuột vào để click*/
+}
+.btn:hover{/*chỉ định vào ô đó sẽ có màu*/
+    background:#008000;
+}
