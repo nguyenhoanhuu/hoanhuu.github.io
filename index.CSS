@@ -2,7 +2,7 @@ body{
     margin: 0; /* canh lề giữa cách cấu trúc dữ liệu nhậpnhập*/
         margin-top: 1px; /* Canh lề bên trên cho thành phần*/
     text-align: center;/*canh giữa bài làm */
-    background-image: url(./1234.jpg);/*lệnh lấy hình ảnh làm nền*/
+    background-image: url(./123.jpg);/*lệnh lấy hình ảnh làm nền*/
     background-size: auto;/*chỉnh kích cỡ ảnh*/
     color: blue;/*chỉnh màu chữ*/
     font-size: 30px;
