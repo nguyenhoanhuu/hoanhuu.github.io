@@ -1,103 +1,101 @@
-&lt;!DOCTYPE html&gt;
-&lt;html lang=&quot;en-us&quot;&gt;
+<!DOCTYPE html>
+<html lang="en-us">
 
-&lt;head&gt;
-&lt;meta charset=&quot;UTF-8&quot;&gt;
-&lt;title&gt;Nguyễn Hoàn Hữu&lt;/title&gt;
-&lt;meta name=&quot;theme-color&quot; content=&quot;#131313&quot;&gt;
-&lt;meta name=&quot;description&quot; content=&quot;I&#39;m HoanHuu.&quot;&gt;
-&lt;meta http-equiv=&quot;refresh&quot; content=&quot;3;URL=https://www.facebook.com/Iwantcontrollifenow&quot;&gt;
-&lt;/head&gt;
-&lt;style&gt;
-body {
-background-color: #131313;
-}
+<head>
+	<meta charset="UTF-8">
+	<title>Nguyễn Hoàn Hữu</title>
+	<meta name="theme-color" content="#131313">
+  <meta name="description" content="I'm HoanHuu.">
+<meta http-equiv="refresh" content="3;URL=https://www.facebook.com/Iwantcontrollifenow">
+</head>
+<style>
+	body {
+		background-color: #131313;
+	}
 
-#preloader {
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-}
+	#preloader {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+	}
 
-#loader {
-display: block;
-position: relative;
-left: 50%;
-top: 50%;
-width: 150px;
+	#loader {
+		display: block;
+		position: relative;
+		left: 50%;
+		top: 50%;
+		width: 150px;
+		height: 150px;
+		margin: -75px 0 0 -75px;
+		border-radius: 50%;
+		border: 3px solid transparent;
+		border-top-color: #9370DB;
+		-webkit-animation: spin 2s linear infinite;
+		animation: spin 2s linear infinite;
+	}
 
-height: 150px;
-margin: -75px 0 0 -75px;
-border-radius: 50%;
-border: 3px solid transparent;
-border-top-color: #9370DB;
--webkit-animation: spin 2s linear infinite;
-animation: spin 2s linear infinite;
-}
+	#loader:before {
+		content: "";
+		position: absolute;
+		top: 5px;
+		left: 5px;
+		right: 5px;
+		bottom: 5px;
+		border-radius: 50%;
+		border: 3px solid transparent;
+		border-top-color: #BA55D3;
+		-webkit-animation: spin 3s linear infinite;
+		animation: spin 3s linear infinite;
+	}
 
-#loader:before {
-content: &quot;&quot;;
-position: absolute;
-top: 5px;
-left: 5px;
-right: 5px;
-bottom: 5px;
-border-radius: 50%;
-border: 3px solid transparent;
-border-top-color: #BA55D3;
--webkit-animation: spin 3s linear infinite;
-animation: spin 3s linear infinite;
-}
+	#loader:after {
+		content: "";
+		position: absolute;
+		top: 15px;
+		left: 15px;
+		right: 15px;
+		bottom: 15px;
+		border-radius: 50%;
+		border: 3px solid transparent;
+		border-top-color: #FF00FF;
+		-webkit-animation: spin 1.5s linear infinite;
+		animation: spin 1.5s linear infinite;
+	}
 
-#loader:after {
-content: &quot;&quot;;
-position: absolute;
-top: 15px;
-left: 15px;
-right: 15px;
+	@-webkit-keyframes spin {
+		0% {
+			-webkit-transform: rotate(0deg);
+			-ms-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+		100% {
+			-webkit-transform: rotate(360deg);
+			-ms-transform: rotate(360deg);
+			transform: rotate(360deg);
+		}
+	}
 
-bottom: 15px;
-border-radius: 50%;
-border: 3px solid transparent;
-border-top-color: #FF00FF;
--webkit-animation: spin 1.5s linear infinite;
-animation: spin 1.5s linear infinite;
-}
+	@keyframes spin {
+		0% {
+			-webkit-transform: rotate(0deg);
+			-ms-transform: rotate(0deg);
+			transform: rotate(0deg);
+		}
+		100% {
+			-webkit-transform: rotate(360deg);
+			-ms-transform: rotate(360deg);
+			transform: rotate(360deg);
+		}
+	}
 
-@-webkit-keyframes spin {
-0% {
--webkit-transform: rotate(0deg);
--ms-transform: rotate(0deg);
-transform: rotate(0deg);
-}
-100% {
--webkit-transform: rotate(360deg);
--ms-transform: rotate(360deg);
-transform: rotate(360deg);
-}
-}
+	</style
+  <body>
+  <div id="preloader">
+  <div id="loader">
+  </div>
+  </div>
+  </body>
+  </html>
 
-@keyframes spin {
-0% {
--webkit-transform: rotate(0deg);
--ms-transform: rotate(0deg);
-transform: rotate(0deg);
-}
-100% {
--webkit-transform: rotate(360deg);
-
--ms-transform: rotate(360deg);
-transform: rotate(360deg);
-}
-}
-
-&lt;/style
-&lt;body&gt;
-&lt;div id=&quot;preloader&quot;&gt;
-&lt;div id=&quot;loader&quot;&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/body&gt;
-&lt;/html&gt;
